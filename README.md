@@ -16,9 +16,9 @@ TextToArt is a command-line tool written in Go that converts text into ASCII art
 ### How to Run
 1. Clone the Repo
 2. Navigate to the project directory
-3.1 Run `go run main.go "Text"`
-3.2 Run `go run main.go "Text" "Banner"`
-3.2 Run `go run main.go -output=output.txt "Your Text" "banner"`
+3. Run `go run main.go "Text"`
+4. Run `go run main.go "Text" "Banner"`
+5. Run `go run main.go -output=output.txt "Your Text" "banner"`
 
 ### Implementation Details
 
