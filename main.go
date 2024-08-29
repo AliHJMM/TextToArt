@@ -9,11 +9,11 @@ import (
 func main() {
 	args := os.Args 
 	if len(args) == 2 {
-		TextToArt(args) 
+		functions.TextToArt(args) 
 	} else if len(args) == 3 {
-		TextToArtInTerminal(args) 
+		functions.TextToArtInTerminal(args) 
 	} else if len(args) == 4 {
-		TextToArtInFile(args)
+		functions.TextToArtInFile(args)
 	} else {
 		fmt.Println("Usage: go run . [STRING] [BANNER]\nEX: go run . something standard")
 	}
